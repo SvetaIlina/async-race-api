@@ -44,7 +44,7 @@ const state = { velocity: {}, blocked: {} };
 server.use(
   cors({
     origin: "https://svetailina.github.io",
-    methods: "GET,POST,PUT,DELETE,OPTIONS",
+    methods: "GET,POST,PUT,PATCH,DELETE,OPTIONS",
     allowedHeaders: "Content-Type,Authorization",
   })
 );
